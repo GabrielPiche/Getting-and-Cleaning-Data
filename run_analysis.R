@@ -1,5 +1,4 @@
-#Loading the libraries I will be using
-library(reshape)
+#Loading the libraries I will be using, be cautions if you loaded dplyr, you might have some compability issues.
 library(plyr)
 
 #Importing all the different datafiles I need
@@ -35,7 +34,6 @@ Testing = cbind(y_test,subject_test,x_test);
 DataF = rbind(Training,Testing);
 
 # Keeping the activity and respondentID columns and keeping only the measurement names (mean and standard deviation)
-
 variablesF = "mean|std|respondentID|activity"
 DataF2 = DataF[,grep(variablesF , names(DataF), value=TRUE)]
 LabelsF= gsub("\\(|\\)|-|,", "", names(DataF2))
