@@ -12,6 +12,6 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###Items in the repository
-*CodeBook.md : Describing the variables in the datafile.
-*README.md : Describing how the scrip works.
-*run_analysis.R : Script executing the 5 steps mentioned above.
+* CodeBook.md : Describing the variables in the datafile.
+* README.md : Describing how the scrip works.
+* run_analysis.R : Script executing the 5 steps mentioned above.
